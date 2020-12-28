@@ -1,6 +1,7 @@
 import React, { Fragment } from 'react';
 
-const About = () => {
+const About = (props) => {
+  console.log(props.match.params);
   return (
     <Fragment>
       <h1>About this app</h1>
